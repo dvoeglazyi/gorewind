@@ -3,7 +3,7 @@ package geometry
 import "math"
 
 // geographic coordinates	/ географические координаты		/ space coordinates		/ космические координаты
-// longitude 				/ долгота						/ right ascension		/ прямое восхождение
+// longitude				/ долгота						/ right ascension		/ прямое восхождение
 // latitude					/ широта						/ declination			/ склонение
 
 // SphericalCoords сферические координаты: долгота, широта и радиус.
