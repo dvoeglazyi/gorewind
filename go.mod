@@ -1,3 +1,3 @@
-module github.com/dvoeglazyi/geometry
+module github.com/dvoeglazyi/gorewind
 
 go 1.14
