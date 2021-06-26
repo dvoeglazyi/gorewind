@@ -1,10 +1,13 @@
 package gorewind
 
-// gorewind - Golang library for working with spherical coordinates system.
+// gorewind. Golang library for working with astronomical and geographical objects in spherical coordinates system.
+// Библиотека для работы с астрономическими и географическими объектами в сферической системе координат.
 // Copyright © 2021 Dvoeglazyi
 // License: http://github.com/dvoeglazyi/gorewind/LICENSE
 
-import "math"
+import (
+	"math"
+)
 
 // CartesianCoords прямоугольные координаты.
 type CartesianCoords struct {

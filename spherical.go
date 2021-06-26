@@ -1,14 +1,15 @@
 package gorewind
 
-// gorewind - Golang library for working with spherical coordinates system.
+// gorewind. Golang library for working with astronomical and geographical objects in spherical coordinates system.
+// Библиотека для работы с астрономическими и географическими объектами в сферической системе координат.
 // Copyright © 2021 Dvoeglazyi
 // License: http://github.com/dvoeglazyi/gorewind/LICENSE
 
 import "math"
 
-// geographic coordinates	/ географические координаты		/ space coordinates		/ космические координаты
-// longitude				/ долгота						/ right ascension		/ прямое восхождение
-// latitude					/ широта						/ declination			/ склонение
+// geographic coordinates   / географические координаты   / space coordinates    / космические координаты
+// longitude                / долгота                     / right ascension      / прямое восхождение
+// latitude                 / широта                      / declination          / склонение
 
 // SphericalCoords сферические координаты: долгота, широта и радиус.
 type SphericalCoords struct {
